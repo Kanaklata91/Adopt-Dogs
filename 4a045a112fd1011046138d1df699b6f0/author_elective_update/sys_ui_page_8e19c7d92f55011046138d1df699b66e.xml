@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="DELETE">
+        <category>general</category>
+        <client_script/>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_625207_fetch_.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	
+	<form class='form-horizontal'>
+<div class="form-group">
+    <label class='col-sm-2 control-label'>Name of the dog</label>
+    <div class="col-sm-4">
+        <input type="text" class="form-control" id='dogname'></input>
+    </div>
+</div>
+
+<div class="form-group">
+    <label class='col-sm-2 control-label'>Age of the dog</label>
+    <div class="col-sm-4">
+        <input type="text" class="form-control" id='dogage'></input>
+    </div>
+</div>
+
+<div class="form-group">
+    <label class='col-sm-2 control-label'>Shots</label>
+    <div class="col-sm-4">
+        <input type="checkbox" class="form-control" id='dogshots'></input>
+    </div>
+</div>
+
+<div class="form-group">
+    <label class='col-sm-2 control-label'>Neutered</label>
+    <div class="col-sm-4">
+        <input type="checkbox" class="form-control" id='dogneutered'></input>
+    </div>
+</div>
+</form>
+
+<button id='adddog' class="btn btn-default">Add Dog</button>
+
+<div id='msg'></div>
+
+</j:jelly>]]></html>
+        <name/>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-26 10:53:19</sys_created_on>
+        <sys_id>8e19c7d92f55011046138d1df699b66e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fetch" source="x_625207_fetch">4a045a112fd1011046138d1df699b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">4a045a112fd1011046138d1df699b6f0</sys_scope>
+        <sys_update_name>sys_ui_page_8e19c7d92f55011046138d1df699b66e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-26 10:53:19</sys_updated_on>
+    </sys_ui_page>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Fetch">4a045a112fd1011046138d1df699b6f0</application>
+        <file_path/>
+        <instance_id>540df253db2873002f68c59705961984</instance_id>
+        <instance_name>dev79307</instance_name>
+        <name>sys_ui_page_8e19c7d92f55011046138d1df699b66e</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_ui_page"&gt;&lt;sys_ui_page action="INSERT_OR_UPDATE"&gt;&lt;category&gt;general&lt;/category&gt;&lt;client_script/&gt;&lt;description/&gt;&lt;direct&gt;false&lt;/direct&gt;&lt;endpoint&gt;x_625207_fetch_.do&lt;/endpoint&gt;&lt;html&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null"&gt;
+	
+	&lt;form class='form-horizontal'&gt;
+&lt;div class="form-group"&gt;
+    &lt;label class='col-sm-2 control-label'&gt;Name of the dog&lt;/label&gt;
+    &lt;div class="col-sm-4"&gt;
+        &lt;input type="text" class="form-control" id='dogname'&gt;&lt;/input&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="form-group"&gt;
+    &lt;label class='col-sm-2 control-label'&gt;Age of the dog&lt;/label&gt;
+    &lt;div class="col-sm-4"&gt;
+        &lt;input type="text" class="form-control" id='dogage'&gt;&lt;/input&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="form-group"&gt;
+    &lt;label class='col-sm-2 control-label'&gt;Shots&lt;/label&gt;
+    &lt;div class="col-sm-4"&gt;
+        &lt;input type="checkbox" class="form-control" id='dogshots'&gt;&lt;/input&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+
+&lt;div class="form-group"&gt;
+    &lt;label class='col-sm-2 control-label'&gt;Neutered&lt;/label&gt;
+    &lt;div class="col-sm-4"&gt;
+        &lt;input type="checkbox" class="form-control" id='dogneutered'&gt;&lt;/input&gt;
+    &lt;/div&gt;
+&lt;/div&gt;
+&lt;/form&gt;
+
+&lt;button id='adddog' class="btn btn-default"&gt;Add Dog&lt;/button&gt;
+
+&lt;div id='msg'&gt;&lt;/div&gt;
+
+&lt;/j:jelly&gt;]]&gt;&lt;/html&gt;&lt;name/&gt;&lt;processing_script/&gt;&lt;sys_class_name&gt;sys_ui_page&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-01-26 10:53:19&lt;/sys_created_on&gt;&lt;sys_id&gt;8e19c7d92f55011046138d1df699b66e&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name/&gt;&lt;sys_package display_value="Fetch" source="x_625207_fetch"&gt;4a045a112fd1011046138d1df699b6f0&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Fetch"&gt;4a045a112fd1011046138d1df699b6f0&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_page_8e19c7d92f55011046138d1df699b66e&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-01-26 10:53:19&lt;/sys_updated_on&gt;&lt;/sys_ui_page&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1879632322</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>ce045a112fd1011046138d1df699b6f2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-26 10:53:19</sys_created_on>
+        <sys_id>19494bd92f55011046138d1df699b666</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17e9604bba60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-26 10:53:19</sys_updated_on>
+        <type>UI Page</type>
+        <update_guid>51494bd9cd5501101b569bdfb5883866</update_guid>
+        <update_guid_history>51494bd9cd5501101b569bdfb5883866:1879632322</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-26 10:54:48</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_page">sys_ui_page</sys_db_object>
+        <sys_id>3866c91e4f2747e08ee22b6047a43d09</sys_id>
+        <sys_metadata>8e19c7d92f55011046138d1df699b66e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Fetch" source="x_625207_fetch">4a045a112fd1011046138d1df699b6f0</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">4a045a112fd1011046138d1df699b6f0</sys_scope>
+        <sys_scope_delete display_value="">2838094ecf6844ed9098c4a69f75e9b1</sys_scope_delete>
+        <sys_update_name>sys_ui_page_8e19c7d92f55011046138d1df699b66e</sys_update_name>
+        <sys_update_version display_value="sys_ui_page_8e19c7d92f55011046138d1df699b66e">19494bd92f55011046138d1df699b666</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-26 10:54:48</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

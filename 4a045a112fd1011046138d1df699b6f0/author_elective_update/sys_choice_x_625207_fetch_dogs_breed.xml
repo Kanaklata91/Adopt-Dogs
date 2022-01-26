@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="breed" table="x_625207_fetch_dogs" version="3">
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>breed</element>
+            <name>x_625207_fetch_dogs</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-26 09:46:02</sys_created_on>
+            <sys_id>ffd9f2192f15011046138d1df699b60d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>breed</sys_name>
+            <sys_package display_value="Fetch" source="x_625207_fetch">4a045a112fd1011046138d1df699b6f0</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Fetch">4a045a112fd1011046138d1df699b6f0</sys_scope>
+            <sys_update_name>sys_choice_x_625207_fetch_dogs_breed</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-26 09:46:02</sys_updated_on>
+        </sys_choice_set>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>breed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Labrador</label>
+            <language>en</language>
+            <name>x_625207_fetch_dogs</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-26 09:46:02</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c9a9b69d2f15011046138d1df699b6e2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-26 09:46:02</sys_updated_on>
+            <value>labrador</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>breed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>German Shephard</label>
+            <language>en</language>
+            <name>x_625207_fetch_dogs</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-26 09:46:23</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b0f9ba5d2f15011046138d1df699b61c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-26 09:46:23</sys_updated_on>
+            <value>german shephard</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>breed</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Dalmation</label>
+            <language>en</language>
+            <name>x_625207_fetch_dogs</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-01-26 09:47:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1c3a32d92f15011046138d1df699b607</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-01-26 09:47:26</sys_updated_on>
+            <value>Dalmation</value>
+        </sys_choice>
+    </sys_choice>
+</record_update>

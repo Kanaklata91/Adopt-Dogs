@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[jQuery("#adddog").click(function(){
+    var ga = new GlideAjax('fetchUtils');
+    ga.addParam('sysparm_name','createdog');
+    ga.addParam('sysparm_dog_name',jQuery("#dogname").val());
+    ga.addParam('sysparm_dog_age',jQuery("#dogage").val());
+    ga.addParam('sysparm_dog_shots',jQuery("#dogshots").is(':checked'));
+    ga.addParam('sysparm_dog_neutered',jQuery("#dogneutered").is(':checked'));
+    ga.getXML(fetchBallBack);
+
+});
+
+function fetchBallBack(response)
+{
+    var answer = response.responseXML.documentElement.getAttribute('answer').split('|');
+    jQuery('#msg').append('<p>'+answer[0]+'has been successfully created. Dog ID: ' + answer[1] +'</p><br/><a href="'+answer[2]+'">View new dog</a>');
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_625207_fetch_Create Dog.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<h1>Add a new dog.</h1>
+	<form class='form-horizontal'>
+<div class="form-group">
+    <label class='col-sm-2 control-label'>Name of the dog</label>
+    <div class="col-sm-4">
+        <input type="text" class="form-control" id='dogname'></input>
+    </div>
+</div>
+
+<div class="form-group">
+    <label class='col-sm-2 control-label'>Age of the dog</label>
+    <div class="col-sm-4">
+        <input type="text" class="form-control" id='dogage'></input>
+    </div>
+</div>
+
+<div class="form-group">
+    <label class='col-sm-2 control-label'>Shots</label>
+    <div class="col-sm-4">
+        <input type="checkbox" class="form-control" id='dogshots'></input>
+    </div>
+</div>
+
+<div class="form-group">
+    <label class='col-sm-2 control-label'>Neutered</label>
+    <div class="col-sm-4">
+        <input type="checkbox" class="form-control" id='dogneutered'></input>
+    </div>
+</div>
+</form>
+
+<button id='adddog' class="btn btn-default">Add Dog</button>
+
+<div id='msg'></div>
+	
+	
+</j:jelly>]]></html>
+        <name>Create Dog</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-01-26 10:53:50</sys_created_on>
+        <sys_id>36494f552f55011046138d1df699b6a6</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Create Dog</sys_name>
+        <sys_package display_value="Fetch" source="x_625207_fetch">4a045a112fd1011046138d1df699b6f0</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Fetch">4a045a112fd1011046138d1df699b6f0</sys_scope>
+        <sys_update_name>sys_ui_page_36494f552f55011046138d1df699b6a6</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-01-26 11:40:20</sys_updated_on>
+    </sys_ui_page>
+</record_update>
